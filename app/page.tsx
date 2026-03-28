@@ -1,5 +1,11 @@
-import Image from "next/image";
+import { Navbar } from '@/components/main/navbar'
+import { Hero } from '@/components/main/hero'
 
 export default function Home() {
-  return <div>안녕하세요</div>;
+  return (
+    <main className="w-screen h-screen bg-black">
+      <Navbar />
+      <Hero />
+    </main>
+  )
 }
